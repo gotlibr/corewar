@@ -3,4 +3,4 @@ project(corewar C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(corewar main.c)
+add_executable(corewar src/main.c includes/func.h)
